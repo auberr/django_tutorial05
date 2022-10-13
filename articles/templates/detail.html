@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content %}
+<h2 class="text-center">DETAIL</h2>
+<h3>{{ article.pk }}번째 글</h3>
+<hr />
+<p>제목: {{ article.title }}</p>
+<p>내용: {{ article.content }}</p>
+<p>작성 시각: {{ article.created_at|date:"SHORT_DATE_FORMAT" }}</p>
+<a href="{% url 'articles:dinner' %}"><button class="btn btn-primary">오늘저녁뭐먹지 이동</button></a>
+<br /><br />
+<a href="{% url 'articles:edit' article.pk %}"><button class="btn btn-primary">리뷰 수정</button></a>
+<br /><br />
+<form action="{% url 'articles:delete' article.pk %}" method="POST">
+    {% csrf_token %}
+    <button class="btn btn-danger">DELETE</button>
+</form>
+<hr />
+{% endblock %}
