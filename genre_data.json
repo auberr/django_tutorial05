@@ -1,0 +1,68 @@
+[
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "중식"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "일식"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "한식"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "미국"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "지중해"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "중남미"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "프랑스"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "이태리"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "동남아"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "중동"
+    }
+  },
+  {
+    "model": "foods.genre",
+    "fields": {
+      "name": "아프리카"
+    }
+  }
+]

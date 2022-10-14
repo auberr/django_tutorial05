@@ -1,0 +1,23 @@
+[
+    {
+        "name":"짜장면",
+        "original_title":"炸醬麵",
+        "genre": "['한식', '중식']",
+        "shop": "중국집",
+        "rated": "5",
+        "launched_date": "1905",
+        "desc": "면과 춘장에 다양한 재료를 볶은 음식",
+        "img": "https://t2.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/3QTb/image/aqOqjbS-F38EmwKn5TYxPwpaRQo.jpg"
+    },
+    {
+        "name":"부대찌개",
+        "original_title":"부대찌개",
+        "genre": "['한식', '미국']",
+        "shop": "부대찌개집",
+        "rated": "5",
+        "launched_date": "1955",
+        "desc": "스팸, 소시지, 베이컨등의 가공육을 베이스로 우려낸 찌개",
+        "img": "https://static.wtable.co.kr/image/production/service/product/9425/e4bea539-74ee-4437-9928-bd015f04ed3f.jpg"
+
+    }
+]

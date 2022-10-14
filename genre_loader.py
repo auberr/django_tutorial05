@@ -1,0 +1,17 @@
+import json
+
+with open('genre.json', 'rt', encoding='UTF-8') as f:
+    genre_list = json.load(f)
+print(genre_list)
+
+new_list = []
+for genre in genre_list:
+    new_data = {"model": "foods.genre"}
+    new_data["fields"] = {}
+    new_data["fields"]["name"] = genre
+    new_list.append(new_data)
+
+print(new_list)
+
+with open('genre_data.json', 'w', encoding='UTF-8') as f:
+    json.dump(new_list, f, ensure_ascii=False, indent=2)
