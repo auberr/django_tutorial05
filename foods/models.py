@@ -8,6 +8,9 @@ class Genre(models.Model):
         db_table = "genre"
     name = models.CharField(max_length=70, default='')
 
+    def __str__(self):
+        return f'{self.name}'
+
 
 class Food(models.Model):
     class Meta:
@@ -20,3 +23,6 @@ class Food(models.Model):
     launched_date = models.CharField(max_length=70, default='')
     desc = models.TextField(max_length=256, default='')
     img = models.TextField(max_length=256, default='')
+
+    def __str__(self):
+        return f'{self.name}'
